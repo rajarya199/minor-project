@@ -32,7 +32,7 @@ export default function Home() {
           <p style={{fontSize:'20px'}}>Don't waste time searching. Find like minded Roommates to share comfortable space.
              </p>
              <Link to='/#'>  <button type="button-lg" className="btn mb-3 abc" >Find Roommate</button></Link>
-          <div className='col-lg-6'></div>
+        
       </div>
       <div className='col-lg-8'>
       <img src={roomie} className="roomie-img" alt="..." style={{backgroundSize:'auto',height:'500px'}}/>

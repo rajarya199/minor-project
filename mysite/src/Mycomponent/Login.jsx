@@ -12,7 +12,7 @@ export default function login() {
           </div >
           <div className='col-lg-6'>
           <div className='mt-5 bs ' style={{border:'3px solid #ccc ' ,
-     width:'300px',
+     width:'350px',
      padding:'25px ',
      borderRadius:'10px',
      height:'350px',
@@ -25,9 +25,11 @@ export default function login() {
     <input type="text" id="username" name="username" required style= {{width:'100%',padding:'10px 10px',marginBottom:'10px'}}/><br/>
     <label for="password"><b>Password:</b></label><br/>
     <input type="password" id="password" name="password"  required style= {{width:'100%',padding:'10px 10px'}}/><br/><br/>
-    <button className="btn btn-outline-success mb-3" type="submit" style={{width:'40%'}}>Submit </button>
-    <div>Not Register Yet.  </div>
-    <Link to='/Register'>Register Now</Link>
+    <button className="btn btn-outline-success mb-3" type="submit" style={{width:'40%'}}>Submit </button><br/>
+    Not Register Yet.  
+    <Link className='mx-4' to='/Register' style={{fontSize:'20px'}}>Register Now</Link><br/>
+    <a className='mt-4' style={{fontSize:'20px'}} href="#">Forget Password?</a>
+
    
    
   </form> 

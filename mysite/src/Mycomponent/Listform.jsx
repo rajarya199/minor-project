@@ -4,7 +4,7 @@ export default function Listform() {
   return (
     <div>
     <form action="/register" method='post'>
-      <div className='container' style={{border:'3px solid #ccc ' ,
+      <div className='container mt-5' style={{border:'3px solid #ccc ' ,
     width:'500px',
     padding:'20px ',
     borderRadius:'10px',
