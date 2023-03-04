@@ -54,3 +54,17 @@ background-color:green
     padding: 10px 10px;
     margin-bottom: 10px;
 }
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+  
+tr:nth-child(even) {
+    background-color:#dddddd
+    }
+    tr:nth-child(odd) {
+    background-color:aliceblue
+  }

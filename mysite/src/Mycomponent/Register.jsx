@@ -31,7 +31,7 @@ function Register() {
       } 
       try {
         setloading(true);
-        const result = await axios.post('http://localhost:5173/Register/api/auth/register',user).data;
+        const result = await axios.post('http://localhost:5000/api/auth/register',user).data;
         // const result= await fetch("http://localhost:5173/api/auth/register",
         // method="post",
         // body=JSON.stringify(user),
@@ -87,7 +87,7 @@ function Register() {
           <input type="text" placeholder="Enter Your Name" name="username" id="username"   required style= {{width:'100%',padding:'10px 10px',marginBottom:'10px'}}
           onChange={(event)=>setusername(event.target.value)} /><br/>
           <label htmlFor="email"><b>Email</b></label> <br/>
-          <input type="text" placeholder="Enter Email" name="email" id="email" required style= {{width:'100%',padding:'10px 10px',marginBottom:'10px'}}
+          <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"   placeholder="Enter Email" name="email" id="email" required style= {{width:'100%',padding:'10px 10px',marginBottom:'10px'}}
           onChange={(event)=>setemail(event.target.value)}/><br/>
           <label htmlFor="psw"><b>Password</b></label><br/>
           <input type="password" placeholder="Enter Password" name="password" id="psw"required style= {{width:'100%',padding:'10px 10px',marginBottom:'10px'}}

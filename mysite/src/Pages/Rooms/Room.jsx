@@ -3,6 +3,7 @@ import axios from 'axios';
 import Listform from '../../Mycomponent/Listform';
 import { Link } from 'react-router-dom'
 import { useEffect, useState} from 'react';
+import Viewproperty from '../../Mycomponent/Viewproperty';
 
 import picI from '/src/images/roomin.jpg'
 import room21 from '/src/images/room21.jpg'
@@ -65,7 +66,7 @@ fetchData()
           <li className="list-group-item">Location: Bhaktapur</li>
           <li className="list-group-item"> Single</li>
         </div>
-        <a href="#" className="btn btn-success  mb-1 ">View </a>
+        <Link to="/viewproperty" className="btn btn-success  mb-1 ">View </Link>
       
 
       </div>
@@ -88,7 +89,7 @@ fetchData()
           <li className="list-group-item">Location: Satdobato</li>
           <li className="list-group-item"> Single</li>
         </div>
-        <a href="#" className="btn btn-success  mb-1 ">View </a>
+        <Link to="/viewproperty" className="btn btn-success  mb-1 ">View </Link>
       
 
       </div>

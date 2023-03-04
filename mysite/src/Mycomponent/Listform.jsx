@@ -41,7 +41,7 @@ export default function Listform() {
  <input type="text"  name="country" id="country"   className='listforms' readOnly required /><br/>
 
  <label htmlFor="province"><b>Province</b></label>
-    <select id="province" name="province" className='listforms' required>
+    <select id="province" name="province" label='province' className='listforms' required>
       <option value="" > Select province</option>
       <option value="province 1">Province 1</option>
       <option value="Madesh ">Madesh</option>
@@ -53,12 +53,118 @@ export default function Listform() {
     </select>
 
     <label htmlFor="district"><b>District</b></label>
- <input type="text"  name="district" id="district" placeholder='Enter District'  className='listforms' required /><br/>
+ {/* <input type="text"  name="district" id="district" placeholder='Enter District'  className='listforms' required /><br/> */}
+
+ <select name="district" className='listforms'  required>
+  <option value="">Select Your District</option>
+  <optgroup label="Province No. 1">
+    <option value="Bhojpur">Bhojpur</option>
+    <option value="Dhankuta">Dhankuta</option>
+    <option value="Ilam">Ilam</option>
+    <option value="Jhapa">Jhapa</option>
+    <option value="Khotang">Khotang</option>
+    <option value="Morang">Morang</option>
+    <option value="Okhaldhunga">Okhaldhunga</option>
+    <option value="Panchthar">Panchthar</option>
+    <option value="Sankhuwasabha">Sankhuwasabha</option>
+    <option value="Solukhumbu">Solukhumbu</option>
+    <option value="Sunsari">Sunsari</option>
+    <option value="Taplejung">Taplejung</option>
+    <option value="Terhathum">Terhathum</option>
+    <option value="Udayapur">Udayapur</option>
+  </optgroup>
+  <optgroup label="Madesh Pradesh">
+    <option value="Bara">Bara</option>
+    <option value="Dhanusha">Dhanusha</option>
+    <option value="Mahottari">Mahottari</option>
+    <option value="Parsa">Parsa</option>
+    <option value="Rautahat">Rautahat</option>
+    <option value="Saptari">Saptari</option>
+    <option value='sarlahi'>Sarlahi</option>
+    <option value="Siraha">Siraha</option>
+    
+  </optgroup>
+  <optgroup label="Bagmati Province">
+    <option value="Bhaktapur">Bhaktapur</option>
+    <option value="Chitwan">Chitwan</option>
+    <option value="Dhading">Dhading</option>
+    <option value="Dolakha">Dolakha</option>
+    <option value="Kathmandu">Kathmandu</option>
+    <option value="Kavrepalanchok">Kavrepalanchok</option>
+    <option value="Lalitpur">Lalitpur</option>
+    <option value="Makwanpur">Makwanpur</option>
+    <option value="Nuwakot">Nuwakot</option>
+    <option value="Rasuwa">Rasuwa</option>
+    <option value="Ramechhap">Ramechhap</option>
+    <option value="Sindhuli">Sindhuli</option>
+    <option value="Sindhupalchok">Sindhupalchok</option>
+  </optgroup>
+
+  <optgroup label="Gandaki Province">
+    <option value="Baglung">Baglung</option>
+    <option value="Gorkha">Gorkha</option>
+    <option value="Kaski">Kaski</option>
+    <option value="Lamjung">Lamjung</option>
+    <option value="Manang">Manang</option>
+    <option value="Mustang">Mustang</option>
+    <option value="Myagdi">Myagdi</option>
+    <option value="Nawalpur">Nawalpur</option>
+    <option value="Parbat">Parbat</option>
+<option value="Syangja">Syangja</option>
+<option value="Tanahun">Tanahun</option>
+    </optgroup>
+
+    <optgroup label="Lumbini Province">
+    <option value="Arghakhanchi">Arghakhanchi</option>
+    <option value="Banke">Banke</option>
+    <option value="Bardiya">Bardiya</option>
+    <option value="Dang">Dang</option>
+    <option value="Gulmi">Gulmi</option>
+    <option value="Kapilvastu">Kapilvastu</option>
+    <option value="Parasi">Parasi</option>
+    <option value="Palpa">Palpa</option>
+    <option value="Pyuthan">Pyuthan</option>
+    <option value="Rolpa">Rolpa</option>
+    <option value="Rukum Purba"> Rukum Purba</option>
+    <option value="Rupandehi">Rupandehi</option>
+    
+  </optgroup>
+
+  <optgroup label="Karnali Province">
+    <option value="Dailekh">Dailekh</option>
+    <option value="Dolpa">Dolpa</option>
+    <option value="Humla">Humla</option>
+    <option value="Jajarkot">Jajarkot</option>
+    <option value="Jumla">Jumla</option>
+    <option value="Kalikot">Kalikot</option>
+    <option value="Mugu">Mugu</option>
+    <option value="Rukum Paschim"> Rukum Paschim</option>
+
+    <option value="Salyan">Salyan</option>
+    <option value="Surkhet">Surkhet</option>
+  </optgroup>
+
+  <optgroup label="Sudurpashchim Province">
+    <option value="Achham">Achham</option>
+    <option value="Baitadi">Baitadi</option>
+    <option value="Bajhang">Bajhang</option>
+    <option value="Bajura">Bajura</option>
+    <option value="Dadeldhura">Dadeldhura</option>
+    <option value="Darchula">Darchula</option>
+    <option value="Doti">Doti</option>
+    <option value='Kailali'>Kailali</option>
+    <option value="Kanchanpur">Kanchanpur</option>
+    
+  </optgroup>
+
+  </select>
+
+
 
  <label htmlFor="municipality"><b>Municipality/VDC</b></label>
  <input type="text"  name="municipality" id="municipality"  className='listforms'placeholder='Enter your Municipality/VDC' required /><br/>
  <label htmlFor="ward"><b>Ward No.</b></label>
- <input type="text"  name="ward" id="ward"  className='listforms'placeholder='Enter your Ward no.' required /><br/>
+ <input type="number"  name="ward" id="ward"  className='listforms'placeholder='Enter your Ward no.' step="1" min='1' max='32' required /><br/>
  <label htmlFor="street"><b>Street/Tole</b></label>
  <input type="text"  name="street" id="street"  className='listforms'placeholder='Enter your Street/Tole.' required /><br/>
 
@@ -89,7 +195,7 @@ export default function Listform() {
 <label htmlFor='watersupply'><b>Water Supply</b> </label>
 <select id="watersupply" name="watersupply" className='listforms' required>
       <option value="available">Available</option>
-      <option value=" not available"> Not Available</option>
+      <option value=" not available"> Not Available</option> 
     </select><br/>
 
     <label htmlFor='Electricity'><b>Electricity</b> </label>

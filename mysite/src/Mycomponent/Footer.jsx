@@ -20,7 +20,7 @@ function Footer() {
             <h3>Services</h3>
             <ul>
               <li><Link to="/Room" className="text-reset">Room</Link></li>
-              <li><Link to="/Flat" className="text-reset">Flat/Appartment</Link></li>
+              <li><Link to="/Flat" className="text-reset">Flat/Apartment</Link></li>
               <li><Link to="/Hostel" className="text-reset">Hostel</Link></li>
               <li><a href="#!" className="text-reset">Roommate</a></li>
               

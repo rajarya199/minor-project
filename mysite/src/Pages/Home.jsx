@@ -14,8 +14,8 @@ import hostel2 from '/src/images/hostel2.png'
 import { Link } from 'react-router-dom'
 export default function Home() {
   return (
-    <div>
-      <div className=' d-flex  justify-content-end' style={{backgroundColor:'#c5e0e5',height:'50px' ,alignItems:'center'}}>
+    < >
+      <div className=' d-flex  justify-content-end   ' style={{backgroundColor:'#E0F0FF',height:'50px' ,alignItems:'center'}}>
       <Link to ='/#' style={{fontSize:'30px',marginRight:'10px',color:'orangered'}} > <i class="fa fa-heart-o"> Wishlist</i> </Link>
 
       <Link to='/Addpost' > <button type="button" className="btn btn-success me-3 "> Post Listing</button></Link>
@@ -162,6 +162,6 @@ export default function Home() {
         </div>
     </section>
   
-    </div>
+    </>
   )
 }

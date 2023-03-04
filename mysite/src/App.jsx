@@ -19,6 +19,11 @@ import Hostel from './Pages/Hostels/Hostel'
 import Addpost from './Mycomponent/Addpost'
 import Listform from './Mycomponent/Listform'
 import RoomFolder from './Pages/Rooms/RoomFolder'
+import Viewproperty from './Mycomponent/Viewproperty'
+import Hostelform from './form1/Hostelform'
+import Propertyadd  from './PropertyForm/Propertyadd'
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
 function App() {
   return (
     <BrowserRouter>
@@ -44,6 +49,10 @@ function App() {
         <Route path='/Addpost' element={<Addpost></Addpost>}></Route>
         <Route path='/listform' element={<Listform></Listform>}></Route>
         <Route path='/roomfolder' element={<RoomFolder></RoomFolder>}></Route>
+        <Route path='/viewproperty' element={<Viewproperty></Viewproperty>}></Route>
+        <Route path='/hostelform' element={<Hostelform></Hostelform>}></Route>
+        <Route path='/propertyform' element={<Propertyadd></Propertyadd>}></Route>
+
     </Routes>
   
     <Footer/>

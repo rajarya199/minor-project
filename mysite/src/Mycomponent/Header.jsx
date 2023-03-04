@@ -8,6 +8,7 @@ import Flat from '../Pages/Flats/Flat'
 import Hostel from '../Pages/Hostels/Hostel'
 import { Link } from 'react-router-dom'
 export default function Header() {
+
   return (
         <header >
             <nav className="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
@@ -18,9 +19,9 @@ export default function Header() {
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-              <li className="nav-item">
+               <li className="nav-item">
                 <Link to="/" className="nav-link active" aria-current="page" >Home</Link>
-              </li>
+              </li> 
               
               <li className="nav-item dropdown">
           <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -45,10 +46,18 @@ export default function Header() {
               
             </ul>
             
-            <form className="d-flex" role="search">
-              <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"  />
-              <button className="btn btn-outline-success me-2" type="submit" >Search</button>
-            </form>
+             <form className="d-flex" role="search" style={{border:'3px solid #ccc ',borderRadius:'8px',padding:'2px 1px',backgroundColor:'white'}} >
+              <input className="form-control " type="search" placeholder="Search" aria-label="Search" style={{border:'none',borderRadius:'8px',width:'100%',marginRight:'6px'}} />
+              
+              <span type='submit' className="fa fa-search my-2 " style={{fontSize:'20px'}}></span>
+
+            </form> 
+ 
+      
+    
+
+            <button className="btn btn-outline-success mx-2 " type="submit"> <Link to="/Register " className="nav-link" >Sign in</Link></button>
+
             <button className="btn btn-outline-success " type="submit"> <Link to="/Login " className="nav-link" >Login</Link></button>
           </div>
         </div>
