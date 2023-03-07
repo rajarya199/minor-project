@@ -10,22 +10,68 @@ import MenuItem from '@mui/material/MenuItem';
 import Select from '@mui/material/Select';
 
 
-function DistrictSelect() {
-  const [district, setDistrict] = React.useState('');
-
-  const handleDistrictChange = (event) => {
-    setDistrict(event.target.value);}
-  };
-
-export default function AddressForm() {
+export default function Info() {
 
   return (
     <React.Fragment>
       <Typography variant="h6" gutterBottom>
-       Address
+       Information
       </Typography>
       <Grid container spacing={3}>
-        <Grid item xs={12} sm={6}>
+      <Grid item xs={12} sm={4}>
+      <TextField
+            required
+            id="hostelname"
+            name="hostelname"
+            label="Hostel Name"
+            fullWidth
+            autoComplete="given-name"
+            variant="standard"
+          />
+        </Grid>
+        <Grid item xs={12} sm={4}>
+          <TextField
+          required
+            id="hosteltype"
+            name="hosteltype"
+            label="Hostel Type"
+            fullWidth
+            select
+            variant="standard"
+
+          >
+             <MenuItem value="Boy hostel" > Boys Hostel</MenuItem>
+      <MenuItem value="Girl hostel ">Girl Hostel</MenuItem>
+            </TextField>
+        </Grid>
+
+
+        <Grid item xs={12} sm={4}>
+      <TextField
+            required
+            id="hostelowner"
+            name="hostelowner"
+            label="Hostel Owner Name"
+            fullWidth
+            
+            variant="standard"
+          />
+        </Grid>
+
+        <Grid item xs={12} sm={4}>
+          <TextField
+          required
+            id="hophone no"
+            name="h0phone no"
+            type="tel" 
+            label="Owner Contact No"
+            fullWidth
+            variant="standard"
+            inputProps={{ inputMode: 'numeric', pattern: '[0-9]*' }} 
+          />
+        </Grid>
+
+        <Grid item xs={12} sm={4}>
           <TextField
             id="country"
             name="country"
@@ -39,7 +85,7 @@ export default function AddressForm() {
 
           />
         </Grid>
-        <Grid item xs={12} sm={6}>
+        <Grid item xs={12} sm={4}>
           <TextField
           required
             id="Province"
@@ -50,7 +96,7 @@ export default function AddressForm() {
             variant="standard"
 
           >
-             <MenuItem value="Koshi" >Koshi</MenuItem>
+             <MenuItem value="koshi" >koshi</MenuItem>
       <MenuItem value="Madesh ">Madesh</MenuItem>
       <MenuItem value="Bagmati">Bagmati </MenuItem>
       <MenuItem value="Gandaki">Gandaki </MenuItem>
@@ -60,8 +106,9 @@ export default function AddressForm() {
             </TextField>
         </Grid>
 
-        <Grid item xs={12} sm={6}>
+        <Grid item xs={12} sm={4}>
           <TextField
+          required
             id="District"
             name="District"
             label="District"
@@ -72,7 +119,7 @@ export default function AddressForm() {
 
           >
           
-       <MenuItem  unselectable ><b>province1</b></MenuItem> 
+       <MenuItem  unselectable ><b>Koshi</b></MenuItem> 
     <MenuItem value="Bhojpur">Bhojpur</MenuItem>
     <MenuItem value="Dhankuta">Dhankuta</MenuItem>
     <MenuItem value="Ilam">Ilam</MenuItem>
@@ -179,7 +226,7 @@ export default function AddressForm() {
           </TextField>
         </Grid> 
 
-        <Grid item xs={12} sm={6}>
+        <Grid item xs={12} sm={4}>
           <TextField
             required
             id="vdc/municipality"
@@ -191,22 +238,21 @@ export default function AddressForm() {
           />
         </Grid>
 
-        <Grid item xs={12} sm={6}>
+        <Grid item xs={12} sm={4}>
           <TextField
             required
             id="ward"
             name="ward"
             type='number'
             label="Ward No"
-            
             fullWidth
             
             variant="standard"
-            inputProps={{ pattern: "[0-9]*" ,min:'1',max:'32'}}
+            inputProps={{ pattern: "[0-9]*" ,min:'0',max:'32'}}
           />
         </Grid>
 
-        <Grid item xs={12} sm={6}>
+        <Grid item xs={12} sm={4}>
           <TextField
             required
             id="Tol"
@@ -217,6 +263,80 @@ export default function AddressForm() {
             variant="standard"
           />
         </Grid> 
+
+        <Grid item xs={12} sm={4}>
+          <TextField
+          required
+            id="hemail"
+            name="hemail"
+            type="email" 
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" 
+            label=" Hostel email"
+            fullWidth
+            variant="standard"
+          />
+        </Grid>
+
+        <Grid item xs={12} sm={4}>
+          <TextField
+          required
+            id="hphone no"
+            name="hphone no"
+            type="tel" 
+            label="Hostel Contact No"
+            fullWidth
+            variant="standard"
+            inputProps={{ inputMode: 'numeric', pattern: '[0-9]*' }} 
+          />
+        </Grid>
+        <Grid item xs={12} sm={4}>
+          <TextField
+          required
+            id="h1phone no"
+            name="h1phone no"
+            type="tel" 
+            label="Additional Contact No"
+            fullWidth
+            variant="standard"
+            inputProps={{ inputMode: 'numeric', pattern: '[0-9]*' }} 
+          />
+        </Grid>
+        <Grid item xs={12} sm={4}>
+      <TextField
+            id="website"
+            name="website"
+            label="website"
+            fullWidth
+            autoComplete="given-name"
+            variant="standard"
+          />
+        </Grid>
+
+        <Grid item xs={12} sm={4}>
+      <TextField
+            
+            id="fax"
+            name="fax"
+            label="Fax Number"
+            fullWidth
+            autoComplete="given-name"
+            variant="standard"
+          />
+        </Grid>
+
+        <Grid item xs={12} sm={4}>
+      <TextField
+            
+            id="regno"
+            name="reg"
+            label="Registration Number"
+            fullWidth
+            
+            variant="standard"
+          />
+        </Grid>
+
+
       </Grid>
     </React.Fragment>
   );

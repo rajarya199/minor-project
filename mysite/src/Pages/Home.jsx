@@ -10,14 +10,19 @@ import flat2 from '/src/images/flat2.png'
 import room2 from '/src/images/room2.png'
 import room4 from '/src/images/room4.png'
 import hostel2 from '/src/images/hostel2.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
+import { faHeart } from '@fortawesome/free-solid-svg-icons';
 
 import { Link } from 'react-router-dom'
 export default function Home() {
   return (
     < >
       <div className=' d-flex  justify-content-end   ' style={{backgroundColor:'#E0F0FF',height:'50px' ,alignItems:'center'}}>
-      <Link to ='/#' style={{fontSize:'30px',marginRight:'10px',color:'orangered'}} > <i class="fa fa-heart-o"> Wishlist</i> </Link>
-
+     <Link to ='/#' style={{marginRight:'10px'}} >  <button type="button" className="btn btn-success me-3 ">  <FontAwesomeIcon icon={faHeart} /> Wishlist</button>  </Link>
+    
+      
+      
       <Link to='/Addpost' > <button type="button" className="btn btn-success me-3 "> Post Listing</button></Link>
       </div>
     <Mysearch></Mysearch>

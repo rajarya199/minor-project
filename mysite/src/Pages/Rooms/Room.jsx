@@ -43,7 +43,7 @@ fetchData()
     <div >
 <div >
       <div className='  d-flex  justify-content-end' style={{backgroundColor:'#c5e0e5',height:'55px' ,alignItems:'center'}}>
-      <Link to='/Listform'> <button type="button" className="btn btn-success me-3 "> Add Room</button></Link>
+      <Link to='/propertyform'> <button type="button" className="btn btn-success me-3 "> Add Room</button></Link>
       </div>
 <div className='container '>
   <div className='row'>

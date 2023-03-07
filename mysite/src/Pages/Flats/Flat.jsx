@@ -11,7 +11,7 @@ export default function Flat() {
     
        <div>
       <div className=' d-flex  justify-content-end' style={{backgroundColor:'#c5e0e5',height:'55px' ,alignItems:'center'}}>
-      <Link to='/Listform'> <button type="button" className="btn btn-success me-3 "> Add Flat/Appartment</button></Link>
+      <Link to='/propertyform'> <button type="button" className="btn btn-success me-3 "> Add Flat/Appartment</button></Link>
       </div>
 <div className='container'>
   <div className='row'>
@@ -34,7 +34,7 @@ export default function Flat() {
           <li className="list-group-item">Location: Nakhipot</li>
           <li className="list-group-item"> BHK: 1</li>
         </div>
-        <a href="#" className="btn btn-success  mb-1 ">View </a>
+        <Link to="/viewproperty" className="btn btn-success  mb-1 ">View </Link>
         
       </div>
       <div className=" clg-lg-6 card mt-3 mb-3 shadow-lg" style={{width: '22rem',
@@ -56,7 +56,7 @@ export default function Flat() {
           <li className="list-group-item">Location: Kirtipur</li>
           <li className="list-group-item"> BHK: 2</li>
         </div>
-        <a href="#" className="btn btn-success  mb-1 ">View </a>
+        <Link to="/viewproperty" className="btn btn-success  mb-1 ">View </Link>
         
       </div>
       <div className=" clg-lg-9 card mt-3 mb-3 shadow-lg" style={{width: '22rem',
@@ -78,7 +78,7 @@ export default function Flat() {
           <li className="list-group-item">Location: Kalanki</li>
           <li className="list-group-item"> BHK: 2</li>
         </div>
-        <a href="#" className="btn btn-success  mb-1 ">View </a>
+        <Link to="/viewproperty" className="btn btn-success  mb-1 ">View </Link>
         
       </div>
 </div>

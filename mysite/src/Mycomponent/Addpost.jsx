@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Listform from './Listform'
+
+
 
 export default function () {
   return (
@@ -16,12 +17,12 @@ export default function () {
     lineHeight:'65px',
     
     margin:'auto'}}>
-        <Link to='/Listform' className="list-group-item list-group-item-action  listbox" >
+        <Link to='/propertyform' className="list-group-item list-group-item-action  listbox" >
           Room
         </Link>
-        <Link to='/Listform'className="list-group-item list-group-item-action listbox">Roommates</Link>
-        <Link to='/Listform' className="list-group-item list-group-item-action listbox">Flat/Appartment</Link>
-        <Link href="#" className="list-group-item list-group-item-action listbox">Hostel</Link>
+        <Link to='/'className="list-group-item list-group-item-action listbox">Roommates</Link>
+        <Link to='/propertyform' className="list-group-item list-group-item-action listbox">Flat/Appartment</Link>
+        <Link to="/hostelform" className="list-group-item list-group-item-action listbox">Hostel</Link>
       </div>
         </div>
     

@@ -17,7 +17,7 @@ export default function PropertyDetail() {
       <Typography variant="h6" gutterBottom>
         Property Details
       </Typography>
-      <Grid container spacing={3}>
+      <Grid container spacing={3} >
 
         <Grid item xs={12}>
           <TextField
@@ -32,7 +32,7 @@ export default function PropertyDetail() {
           >
             <MenuItem value='Room'> Room</MenuItem>
             <MenuItem value='Flat'> Flat/Appartments</MenuItem>
-            <MenuItem value='Hostel'> Hostel</MenuItem>
+            {/* <MenuItem value='Hostel'> Hostel</MenuItem> */}
           </TextField>
         </Grid>
 
@@ -45,8 +45,6 @@ export default function PropertyDetail() {
             rows={8}
             label="Description of property"
             fullWidth
-            
-             
           />
         </Grid>
 

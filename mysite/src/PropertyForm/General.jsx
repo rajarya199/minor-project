@@ -30,6 +30,7 @@ export default function General() {
             fullWidth
             autoComplete="given-name"
             variant="standard"
+            
           />
         </Grid>
 
@@ -70,9 +71,11 @@ export default function General() {
             name="email"
             type="email" 
             pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" 
+          
             label="Enter your email"
             fullWidth
             variant="standard"
+            inputProps={{pattern:"[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" }}
           />
         </Grid>
 
@@ -88,6 +91,8 @@ export default function General() {
             inputProps={{ inputMode: 'numeric', pattern: '[0-9]*' }} 
           />
         </Grid>
+
+        
 
       </Grid>
     </div>

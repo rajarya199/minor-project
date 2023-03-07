@@ -1,5 +1,4 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
+
 import './App.css'
 import Header from './Mycomponent/Header'
 import Subhead from './Mycomponent/Subhead'
@@ -22,8 +21,9 @@ import RoomFolder from './Pages/Rooms/RoomFolder'
 import Viewproperty from './Mycomponent/Viewproperty'
 import Hostelform from './form1/Hostelform'
 import Propertyadd  from './PropertyForm/Propertyadd'
+import Hosteladd from './Pages/Hostels/HostelAddform/Hosteladd'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-
+import Viewhostel from './Pages/Hostels/Viewhostel'
 function App() {
   return (
     <BrowserRouter>
@@ -50,8 +50,13 @@ function App() {
         <Route path='/listform' element={<Listform></Listform>}></Route>
         <Route path='/roomfolder' element={<RoomFolder></RoomFolder>}></Route>
         <Route path='/viewproperty' element={<Viewproperty></Viewproperty>}></Route>
-        <Route path='/hostelform' element={<Hostelform></Hostelform>}></Route>
+        <Route path='/hosteladmitform' element={<Hostelform></Hostelform>}></Route>
         <Route path='/propertyform' element={<Propertyadd></Propertyadd>}></Route>
+        <Route path='/hostelform' element={<Hosteladd></Hosteladd>}></Route>
+        <Route path='/viewhostel' element={<Viewhostel></Viewhostel>}></Route>
+
+
+
 
     </Routes>
   
