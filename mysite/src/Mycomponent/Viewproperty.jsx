@@ -3,6 +3,11 @@ import React ,{ useState } from 'react'
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPhone, faMapMarkerAlt, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import picI from '/src/images/roomin.jpg'
+import room9 from '/src/images/room9.jpg'
+
+
+
 
   import {
     
@@ -25,7 +30,7 @@ export default function Viewproperty() {
       <MDBCarouselItem
         className='w-100 d-block  '
         itemId={1}
-        src='https://mdbootstrap.com/img/Photos/Slides/img%20(15).jpg'
+        src={picI}
         alt='...'
         style={{height:'cover '}}
       >
@@ -36,7 +41,7 @@ export default function Viewproperty() {
       <MDBCarouselItem
         className='w-100 d-block'
         itemId={2}
-        src='https://mdbootstrap.com/img/Photos/Slides/img%20(22).jpg'
+        src={room9}
         alt='...'
       >
         

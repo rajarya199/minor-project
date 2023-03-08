@@ -25,7 +25,7 @@ export default function Contact() {
             <ul className="contact-links mt-10"  style={{marginLeft:'200px'}}>
                 <li className='mb-3'><i className="fas fa-home "  /> lalitpur-14,ramailotar</li>
                 <li className='mb-3'> <i className="fas fa-envelope  " />
-                info@myapp.com </li>
+                contact@ghardera.com </li>
               <li className='mb-3'><i className="fas fa-phone  " /> + 01 234567</li>
               <li className='mb-3'><i className="fas fa-print " /> + 01 567890 </li>
             </ul>

@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import man2 from '/src/images/man2.jpg'
+
 import { faPhone, faMapMarkerAlt, faEnvelope,faRupeeSign,faUser } from '@fortawesome/free-solid-svg-icons';
 import {
     
@@ -18,8 +20,8 @@ export default function viewmates() {
 
                 <div className='row'>
                     <div className='col-lg-3'>
-                        <div className="col-md-4 mt-3 mx-3">
-                        <img src="img_avatar.png" className="img-fluid rounded-start" alt="..." />
+                        <div className="col-md-7 mt-1 mx-3">
+                        <img src={man2} className="img-fluid rounded-start" alt="..."  style={{height:'200px'}}/>
                         </div>
                     </div>
                     <div className='col-lg-5'>

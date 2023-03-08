@@ -32,8 +32,11 @@ export default function Roombed() {
             id="Total beds"
             name="Total beds"
             label="Total Beds"
+           
             fullWidth
-            
+            type='number'
+            inputProps={{ pattern: "[0-9]*" ,min:'0'}}
+
             variant="standard"
           />
           </Grid>
@@ -45,6 +48,8 @@ export default function Roombed() {
             label="Available Beds"
             fullWidth
             
+            type='number'
+            inputProps={{ pattern: "[0-9]*" ,min:'0'}}
             variant="standard"
           />
           </Grid>
@@ -56,6 +61,9 @@ export default function Roombed() {
             label="Price/Bed"
             fullWidth
             variant="standard"
+            type='number'
+            inputProps={{ pattern: "[0-9]*" ,min:'0'}}
+  
           />
           </Grid>
 
@@ -70,7 +78,8 @@ export default function Roombed() {
             name="Total beds"
             label="Total Beds"
             fullWidth
-            
+            type='number'
+            inputProps={{ pattern: "[0-9]*" ,min:'0'}}
             variant="standard"
           />
           </Grid>
@@ -81,7 +90,8 @@ export default function Roombed() {
             name="Available Beds"
             label="Available Beds"
             fullWidth
-            
+            type='number'
+            inputProps={{ pattern: "[0-9]*" ,min:'0'}}
             variant="standard"
           />
           </Grid>
@@ -93,6 +103,8 @@ export default function Roombed() {
             label="Price/Bed"
             fullWidth
             variant="standard"
+            type='number'
+            inputProps={{ pattern: "[0-9]*" ,min:'0',step:'100'}}
           />
           </Grid>
 
@@ -108,7 +120,8 @@ export default function Roombed() {
             name="Total beds"
             label="Total Beds"
             fullWidth
-            
+            type='number'
+            inputProps={{ pattern: "[0-9]*" ,min:'0'}}
             variant="standard"
           />
           </Grid>
@@ -119,7 +132,8 @@ export default function Roombed() {
             name="Available Beds"
             label="Available Beds"
             fullWidth
-            
+            type='number'
+            inputProps={{ pattern: "[0-9]*" ,min:'0'}}
             variant="standard"
           />
           </Grid>
@@ -130,6 +144,8 @@ export default function Roombed() {
             name="Price/Bed"
             label="Price/Bed"
             fullWidth
+            type='number'
+            inputProps={{ pattern: "[0-9]*" ,min:'0',step:'100'}}
             variant="standard"
           />
           </Grid>
@@ -144,7 +160,8 @@ export default function Roombed() {
             name="Total beds"
             label="Total Beds"
             fullWidth
-            
+            type='number'
+            inputProps={{ pattern: "[0-9]*" ,min:'0'}}
             variant="standard"
           />
           </Grid>
@@ -155,7 +172,8 @@ export default function Roombed() {
             name="Available Beds"
             label="Available Beds"
             fullWidth
-            
+            type='number'
+            inputProps={{ pattern: "[0-9]*" ,min:'0'}}
             variant="standard"
           />
           </Grid>
@@ -166,6 +184,8 @@ export default function Roombed() {
             name="Price/Bed"
             label="Price/Bed"
             fullWidth
+            type='number'
+            inputProps={{ pattern: "[0-9]*" ,min:'0',step:'100'}}
             variant="standard"
           />
           </Grid>
@@ -181,6 +201,7 @@ export default function Roombed() {
             label="Breakfast-time"
             fullWidth
             variant="standard"
+            placeholder='6-7:30'
           />
           </Grid>
 
@@ -192,6 +213,7 @@ export default function Roombed() {
             label="Launch-time"
             fullWidth
             variant="standard"
+            placeholder='9-11'
           />
           </Grid>
 
@@ -203,6 +225,7 @@ export default function Roombed() {
             label="Snack-time "
             fullWidth
             variant="standard"
+            placeholder='2-4'
           />
           </Grid>
 
@@ -214,6 +237,7 @@ export default function Roombed() {
             label="Dinner-time  "
             fullWidth
             variant="standard"
+            placeholder='7-9'
           />
           </Grid>
           

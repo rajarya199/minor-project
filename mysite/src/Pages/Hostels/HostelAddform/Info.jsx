@@ -248,7 +248,7 @@ export default function Info() {
             fullWidth
             
             variant="standard"
-            inputProps={{ pattern: "[0-9]*" ,min:'0',max:'32'}}
+            inputProps={{ pattern: "[0-9]*" ,min:'1',max:'32'}}
           />
         </Grid>
 
@@ -306,6 +306,7 @@ export default function Info() {
             id="website"
             name="website"
             label="website"
+            type='url'
             fullWidth
             autoComplete="given-name"
             variant="standard"
@@ -331,7 +332,6 @@ export default function Info() {
             name="reg"
             label="Registration Number"
             fullWidth
-            
             variant="standard"
           />
         </Grid>

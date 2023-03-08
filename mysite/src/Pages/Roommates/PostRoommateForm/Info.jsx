@@ -309,7 +309,7 @@ export default function Info() {
             fullWidth
             
             variant="standard"
-            inputProps={{ pattern: "[0-9]*" ,min:'0',max:'32'}}
+            inputProps={{ pattern: "[0-9]*" ,min:'1',max:'32'}}
           />
         </Grid>
 

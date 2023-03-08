@@ -20,7 +20,7 @@ export default function () {
         <Link to='/propertyform' className="list-group-item list-group-item-action  listbox" >
           Room
         </Link>
-        <Link to='/'className="list-group-item list-group-item-action listbox">Roommates</Link>
+        <Link to='/postforroommate'className="list-group-item list-group-item-action listbox">Roommates</Link>
         <Link to='/propertyform' className="list-group-item list-group-item-action listbox">Flat/Appartment</Link>
         <Link to="/hostelform" className="list-group-item list-group-item-action listbox">Hostel</Link>
       </div>

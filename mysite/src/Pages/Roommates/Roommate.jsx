@@ -1,6 +1,14 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import roomie from '/src/images/roomie.jpg'
+import man from '/src/images/man.png'
+import omen from '/src/images/omen.jpg'
+import omen2 from '/src/images/omen2.jpg'
+
+import man2 from '/src/images/man2.jpg'
+
+
+
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPhone, faMapMarkerAlt, faEnvelope,faRupeeSign } from '@fortawesome/free-solid-svg-icons';
@@ -22,7 +30,7 @@ export default function Roommate() {
           </p>
           <p style={{fontSize:'20px'}}> Find like minded Roommates to share comfortable space.
              </p>
-             <Link to='/postforroommate'>  <button type="button-lg" className="btn mb-3 abc" >Post For Roommates</button></Link>
+             <Link to='/postforroommate'>  <button type="button-lg" className="btn mb-3 btn-success abc" >Post For Roommates</button></Link>
         
       </div>
       </div>
@@ -34,7 +42,7 @@ export default function Roommate() {
         <div className="card mb-3 bs" style={{maxWidth: '600px',height:'200px'}}>
         <div className="row g-0">
           <div className="col-md-4">
-            <img src="img_avatar.png" className="img-fluid rounded-start" alt="..." />
+            <img src={man} className="img-fluid rounded-start" alt="..." style={{height:'200px'}} />
           </div>
           <div className="col-md-8">
             <div className="card-body">
@@ -54,7 +62,7 @@ export default function Roommate() {
      <div className="card mb-3 bs" style={{maxWidth: '600px',height:"200px"}}>
         <div className="row g-0">
           <div className="col-md-4">
-            <img src="..." className="img-fluid rounded-start" alt="..." />
+            <img src={omen} className="img-fluid rounded-start " alt="..." style={{height:'200px'}}/>
           </div>
           <div className="col-md-8">
             <div className="card-body">
@@ -75,7 +83,8 @@ export default function Roommate() {
      <div className="card mb-3 bs" style={{maxWidth: '600px',height:"200px"}}>
         <div className="row g-0">
           <div className="col-md-4">
-            <img src="..." className="img-fluid rounded-start" alt="..." />
+          <img src={omen2} className="img-fluid rounded-start " alt="..." style={{height:'200px'}}/>
+
           </div>
           <div className="col-md-8">
             <div className="card-body">
@@ -84,7 +93,7 @@ export default function Roommate() {
               
               <FontAwesomeIcon icon={faRupeeSign} /><span style={{fontSize:'18px'}}>6000</span>
               <div style={{fontSize:'18px'}}> Looking For :Female</div>
-              <div style={{fontSize:'18px'}}> Type :Furnished  <Link to="/" className="btn btn-primary  " style={{marginLeft:"50px",width:'150px'}}>View</Link>
+              <div style={{fontSize:'18px'}}> Type :Furnished  <Link to="/roommateview" className="btn btn-primary  " style={{marginLeft:"50px",width:'150px'}}>View</Link>
  </div>
             </div>
           </div>
@@ -96,7 +105,8 @@ export default function Roommate() {
      <div className="card mb-3 bs" style={{maxWidth: '600px',height:"200px"}}>
         <div className="row g-0">
           <div className="col-md-4">
-            <img src="..." className="img-fluid rounded-start" alt="..." />
+          <img src={man2} className="img-fluid rounded-start " alt="..." style={{height:'200px'}}/>
+
           </div>
           <div className="col-md-8">
             <div className="card-body">

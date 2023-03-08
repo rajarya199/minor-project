@@ -13,7 +13,7 @@ function Footer() {
           
           <div className="col-md-3">
             <h3>GharDera</h3>
-            <p>you can rent the room,appartment ,and hostel and also you can search for roomates.</p>
+            <p>you can rent the room,appartment ,and hostel and also you can search for roommates.</p>
           </div>
 
           <div className="col-md-3">
@@ -22,7 +22,7 @@ function Footer() {
               <li><Link to="/Room" className="text-reset">Room</Link></li>
               <li><Link to="/Flat" className="text-reset">Flat/Apartment</Link></li>
               <li><Link to="/Hostel" className="text-reset">Hostel</Link></li>
-              <li><a href="#!" className="text-reset">Roommate</a></li>
+              <li><Link to ="/Roommate" className="text-reset">Roommate</Link></li>
               
             </ul>
           </div>
@@ -42,7 +42,7 @@ function Footer() {
             <ul className="contact-links">
                 <li><i className="fas fa-home " /> lalitpur-14,ramailotar</li>
                 <li> <i className="fas fa-envelope  " />
-                info@myapp.com </li>
+                contact@ghardera.com </li>
               <li><i className="fas fa-phone  " /> + 01 234567</li>
               <li><i className="fas fa-print " /> + 01 567890 </li>
             </ul>

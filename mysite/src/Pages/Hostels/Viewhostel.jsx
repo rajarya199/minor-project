@@ -3,6 +3,13 @@ import React ,{ useState } from 'react'
 import { Link } from 'react-router-dom';
  import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
  import { faPhone, faMapMarkerAlt, faEnvelope,faBed } from '@fortawesome/free-solid-svg-icons';
+ import hostel5 from '/src/images/hostel5.jpg'
+ import hostel8 from '/src/images/hostel8.jpg'
+
+ import hostel13 from '/src/images/hostel13.png'
+ 
+
+ 
 
   import {
     
@@ -26,7 +33,7 @@ export default function Viewhostel() {
       <MDBCarouselItem
         className='w-100 d-block  '
         itemId={1}
-        src='https://mdbootstrap.com/img/Photos/Slides/img%20(15).jpg'
+        src={hostel5}
         alt='...'
         // style={{height:'cover '}}
       >
@@ -37,15 +44,23 @@ export default function Viewhostel() {
       <MDBCarouselItem
         className='w-100 d-block'
         itemId={2}
-        src='https://mdbootstrap.com/img/Photos/Slides/img%20(22).jpg'
+        src={hostel13}
         alt='...'
       >
         
       </MDBCarouselItem>
-
       <MDBCarouselItem
         className='w-100 d-block'
         itemId={3}
+        src={hostel8}
+        alt='...'
+      >
+        
+        {/* <p>..</p>  */}
+      </MDBCarouselItem>
+      <MDBCarouselItem
+        className='w-100 d-block'
+        itemId={4}
         src='https://mdbootstrap.com/img/Photos/Slides/img%20(23).jpg'
         alt='...'
       >

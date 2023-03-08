@@ -29,7 +29,7 @@ export default function Facility() {
             type="number" 
             label="Bedrooms"
             fullWidth
-            variant="standard"
+            
             inputProps={{ inputMode: 'numeric', pattern: '[0-9]*' ,min:'1',max:'100'}} 
           />
         </Grid>
@@ -41,7 +41,7 @@ export default function Facility() {
             type="number" 
             label="Bathrooms"
             fullWidth
-            variant="standard"
+            
             inputProps={{ inputMode: 'numeric', pattern: '[0-9]*' ,min:'1',max:'100'}} 
           />
         </Grid>
@@ -53,7 +53,7 @@ export default function Facility() {
             type="number" 
             label="kitchen"
             fullWidth
-            variant="standard"
+            
             inputProps={{ inputMode: 'numeric', pattern: '[0-9]*' ,min:'0',max:'100'}} 
           />
         </Grid>

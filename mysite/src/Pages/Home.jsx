@@ -36,7 +36,7 @@ export default function Home() {
           </p>
           <p style={{fontSize:'20px'}}>Don't waste time searching. Find like minded Roommates to share comfortable space.
              </p>
-             <Link to='/#'>  <button type="button-lg" className="btn mb-3 abc" >Find Roommate</button></Link>
+             <Link to='/roommate'>  <button type="button-lg" className="btn mb-3 abc" >Find Roommate</button></Link>
         
       </div>
       <div className='col-lg-8'>
@@ -59,7 +59,7 @@ export default function Home() {
           </p>
           <p style={{fontSize:'20px'}}> Rent your Property to tenants who are best fit according to your requirment/demands.
           List your properties today within few minutes.<br/><br/>
-          <Link to='/listform'>  <button type="button-lg" className="btn mb-3 abc" >List your Property</button></Link>
+          <Link to='/propertyform'>  <button type="button-lg" className="btn mb-3 abc" >List your Property</button></Link>
 
 </p>
           </div>
@@ -135,8 +135,10 @@ export default function Home() {
 
                                         <h4 className="card-title mt-3">Rent your Room</h4>
                                         <p className="card-text mt-3"> 
+                                        If you are planning to give your Flat for the rent and are searching for the tenants then you can advertise your Room in our sites. 
+
                                         </p>
-                                        <Link to='listform'> <button type="button" className="btn  me-3 ">  Add Room</button></Link>
+                                        <Link to='propertyform'> <button type="button" className="btn  me-3 ">  Add Room</button></Link>
 
                   </div>
 
@@ -152,9 +154,10 @@ export default function Home() {
                   <img src={flat2} className="roomie-img" alt="..." style={{backgroundSize:'auto',height:'200px'}}/>
 
                                         <h4 className="card-title mt-3">Rent your flat</h4>
-                                        <p className="card-text mt-3"> 
+                                        <p className="card-text mt-3">
+                                          If you are planning to give your Flat for the rent and are searching for the tenants then you can advertise your Room in our sites. 
                                         </p>
-                                        <Link to='listform'> <button type="button" className="btn me-3 ">  Add Flat</button></Link>
+                                        <Link to='/propertyform'> <button type="button" className="btn me-3 ">  Add Flat</button></Link>
 
                   </div>
 

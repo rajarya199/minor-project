@@ -31,7 +31,7 @@ export default function Preference() {
             type="number" 
             label="Min-Age"
             fullWidth
-            variant="standard"
+            
             inputProps={{ inputMode: 'numeric', pattern: '[0-9]*' ,min:'1',max:'100'}} 
           />
         </Grid>
@@ -43,7 +43,7 @@ export default function Preference() {
             type="number" 
             label="Max-Age"
             fullWidth
-            variant="standard"
+          
             inputProps={{ inputMode: 'numeric', pattern: '[0-9]*' ,min:'1',max:'100'}} 
           />
         </Grid>
@@ -55,7 +55,7 @@ export default function Preference() {
             
             label="Occupation"
             fullWidth
-            variant="standard"
+          
             
           />
         </Grid>
