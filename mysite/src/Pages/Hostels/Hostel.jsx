@@ -11,7 +11,7 @@ import hostel3 from '/src/images/hostel3.jfif'
 export default function Hostel() {
   return (
     
-       <div>
+       <div  >
       <div className=' d-flex  justify-content-end' style={{backgroundColor:'#c5e0e5',height:'55px' ,alignItems:'center'}}>
       <Link to='/hostelform'> <button type="button" className="btn btn-success me-3 "> Add Hostel</button></Link>
       </div>

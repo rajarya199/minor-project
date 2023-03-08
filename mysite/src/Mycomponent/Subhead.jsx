@@ -22,7 +22,7 @@ export default function Subhead() {
        </li>
       
        <li className="nav-item subtab" >
-         <a className="nav-link" style={{color:'white'}} href="#">Roommate</a>
+         <Link className="nav-link" style={{color:'white'}} to="/Roommate">Roommate</Link>
        </li>
        </ul>
         </div>

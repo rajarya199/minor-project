@@ -23,6 +23,7 @@ import Hostelform from './form1/Hostelform'
 import Propertyadd  from './PropertyForm/Propertyadd'
 import Hosteladd from './Pages/Hostels/HostelAddform/Hosteladd'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import Roommate from './Pages/Roommates/Roommate'
 import Viewhostel from './Pages/Hostels/Viewhostel'
 function App() {
   return (
@@ -54,7 +55,7 @@ function App() {
         <Route path='/propertyform' element={<Propertyadd></Propertyadd>}></Route>
         <Route path='/hostelform' element={<Hosteladd></Hosteladd>}></Route>
         <Route path='/viewhostel' element={<Viewhostel></Viewhostel>}></Route>
-
+        <Route path='/Roommate' element={<Roommate></Roommate>}></Route>
 
 
 

@@ -86,7 +86,25 @@ export default function Hostelform() {
       variant="standard"
     />
     </Grid>
+    <Grid item xs={12} >
+          <TextField
+          required
+            id="roomtype"
+            name="roomtype"
+            label="Room type"
+            fullWidth
+            select
+            variant="standard"
 
+          >
+             <MenuItem value="1-sitter" > One-Sitter</MenuItem>
+      <MenuItem value="2-sitter ">Two-Sitter</MenuItem>
+      <MenuItem value="3-sitter">Three-Sitter </MenuItem>
+      <MenuItem value="4-sitter">Four-Sitter</MenuItem>
+      
+     
+            </TextField>
+        </Grid>
     <Grid item xs={12}>
   <FormControl>
 <FormLabel id="demo-row-radio-buttons-group-label">Gender</FormLabel>
