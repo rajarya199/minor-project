@@ -26,6 +26,7 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import Roommate from './Pages/Roommates/Roommate'
 import Viewhostel from './Pages/Hostels/Viewhostel'
 import Viewmates from'./Pages/Roommates/viewmates'
+import Postroommate from './Pages/Roommates/PostRoommateForm/Postroommate'
 function App() {
   return (
     <BrowserRouter>
@@ -58,6 +59,7 @@ function App() {
         <Route path='/viewhostel' element={<Viewhostel></Viewhostel>}></Route>
         <Route path='/Roommate' element={<Roommate></Roommate>}></Route>
         <Route path='/roommateview' element={<Viewmates></Viewmates>}></Route>
+        <Route path='/postforroommate' element={<Postroommate></Postroommate>}></Route>
 
 
 

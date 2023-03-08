@@ -1,10 +1,33 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import roomie from '/src/images/roomie.jpg'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPhone, faMapMarkerAlt, faEnvelope,faRupeeSign } from '@fortawesome/free-solid-svg-icons';
 export default function Roommate() {
   return (
+    <div>
+       <section>
+      <div className='container'>
+        <div className='row'>
+       
+      <div className='col-lg-8'>
+      <img src={roomie} className="roomie-img" alt="..." style={{backgroundSize:'auto',height:'500px'}}/>
+
+      </div>
+      <div className='col-lg-4' >
+              <p style={{fontSize:'50px',lineHeight:'80px',fontFamily:'sans-serif'}}> Looking For A 
+                <p style={{color:'green'}}> Compatible Roommates </p> 
+
+          </p>
+          <p style={{fontSize:'20px'}}> Find like minded Roommates to share comfortable space.
+             </p>
+             <Link to='/postforroommate'>  <button type="button-lg" className="btn mb-3 abc" >Post For Roommates</button></Link>
+        
+      </div>
+      </div>
+      </div>
+    </section>
     <div className='container'>
         <div className='row'>
         <div className='col-lg-6 mt-3'>
@@ -40,7 +63,7 @@ export default function Roommate() {
               
               <FontAwesomeIcon icon={faRupeeSign} /><span style={{fontSize:'18px'}}>6000</span>
               <div style={{fontSize:'18px'}}> Looking For :Any</div>
-              <div style={{fontSize:'18px'}}> Type :Furnished  <Link to="/" className="btn btn-primary  " style={{marginLeft:"50px",width:'150px'}}>View</Link>
+              <div style={{fontSize:'18px'}}> Type :Furnished  <Link to="/roommateview" className="btn btn-primary  " style={{marginLeft:"50px",width:'150px'}}>View</Link>
  </div>
             </div>
           </div>
@@ -82,7 +105,7 @@ export default function Roommate() {
               
               <FontAwesomeIcon icon={faRupeeSign} /><span style={{fontSize:'18px'}}>6000</span>
               <div style={{fontSize:'18px'}}> Looking For :Any (30-40 yrs)</div>
-              <div style={{fontSize:'18px'}}> Type :Furnished  <Link to="/" className="btn btn-primary  " style={{marginLeft:"50px",width:'150px'}}>View</Link>
+              <div style={{fontSize:'18px'}}> Type :Furnished  <Link to="/roommateview" className="btn btn-primary  " style={{marginLeft:"50px",width:'150px'}}>View</Link>
  </div>
             </div>
           </div>
@@ -92,6 +115,7 @@ export default function Roommate() {
 
       </div>
 
+    </div>
     </div>
     
   )
