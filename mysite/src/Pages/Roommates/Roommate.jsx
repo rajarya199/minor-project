@@ -19,8 +19,8 @@ export default function Roommate() {
               <FontAwesomeIcon  icon={faMapMarkerAlt} /> <span style={{fontSize:'18px'}}>Pulchowk,Lalitpur-3</span> <br/>
               
               <FontAwesomeIcon icon={faRupeeSign} /><span style={{fontSize:'18px'}}>10000</span>
-              <div style={{fontSize:'18px'}}> Looking For :Male</div>
-              <div style={{fontSize:'18px'}}> Type :Furnished  <Link to="/" className="btn btn-primary  " style={{marginLeft:"50px",width:'150px'}}>View</Link>
+              <div style={{fontSize:'18px'}}> Looking For :Male (20-30 yrs)</div>
+              <div style={{fontSize:'18px'}}> Type :Furnished  <Link to="/roommateview" className="btn btn-primary  " style={{marginLeft:"50px",width:'150px'}}>View</Link>
  </div>
             </div>
           </div>
@@ -81,7 +81,7 @@ export default function Roommate() {
               <FontAwesomeIcon  icon={faMapMarkerAlt} /> <span style={{fontSize:'18px'}}>Milanchowk,Butwal-9</span> <br/>
               
               <FontAwesomeIcon icon={faRupeeSign} /><span style={{fontSize:'18px'}}>6000</span>
-              <div style={{fontSize:'18px'}}> Looking For :Any</div>
+              <div style={{fontSize:'18px'}}> Looking For :Any (30-40 yrs)</div>
               <div style={{fontSize:'18px'}}> Type :Furnished  <Link to="/" className="btn btn-primary  " style={{marginLeft:"50px",width:'150px'}}>View</Link>
  </div>
             </div>
