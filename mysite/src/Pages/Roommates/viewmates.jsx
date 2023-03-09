@@ -29,13 +29,15 @@ export default function viewmates() {
                         I am Hari Bahadur . I am a 21 year old 1st year Engineering student in Pulchowk Campus.. I am looking for flatmate to share my flat. I am flexible and social. Please write to me if you are comfortable to share with me. I am ok with shared properrty</h5>
                        </div>
                     <div className='col-lg-4 mt-2' >
-                    <div  className=' mt-2 mb-3 bs' style={{border:' solid #ccc ',  padding:'1px ', borderRadius:'10px',height:'200px',lineHeight:'35px'}}>
+                    <div  className=' mt-2 mb-3 bs' style={{border:' solid #ccc ',  padding:'1px ', borderRadius:'10px',height:'250px',lineHeight:'35px'}}>
                          <FontAwesomeIcon  style={{marginLeft:'3em'}} icon={faMapMarkerAlt} /> <span style={{fontSize:'20px',marginLeft:'10px'}}> Pulchowk</span> <br/>
                          <FontAwesomeIcon style={{marginLeft:'3em'}} icon={faRupeeSign} /><span style={{fontSize:'18px',marginLeft:'10px'}}>100000</span> <br/>
                          <FontAwesomeIcon style={{marginLeft:'3em'}} icon={faUser} /><span style={{fontSize:'18px',marginLeft:'10px'}}>Hari Bahadur</span><br/>
                          <FontAwesomeIcon style={{marginLeft:'3em'}} icon={faEnvelope} /><span style={{fontSize:'18px',marginLeft:'10px'}}>contact@hari.com</span><br/>
 
                         <FontAwesomeIcon className='mb-2' style={{marginLeft:'3em'}} icon={faPhone} /><span style={{fontSize:'20px',marginLeft:'10px'}}>12345678 ,345678 </span> <br/>
+                        <Link to="/Mywishlist" className="btn btn-primary  mb-3 mx-4 mt-3 ">Add To My wishlist</Link>
+
                      </div>              
                  </div>
 

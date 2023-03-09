@@ -85,7 +85,7 @@ export default function Mywishlist() {
       </div>
         </div>
       </div>
-      <div className='container'>
+      <div className='container mt-3 mb-3'>
 
       <span className='mt-3 mx-5' style={{fontSize:'30px',color:'green'}}> Roommate Post</span>
       <div className='row'>

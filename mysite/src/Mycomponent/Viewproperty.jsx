@@ -69,7 +69,7 @@ export default function Viewproperty() {
 
                      
                      
-                     <Link to="/" className="btn btn-primary  mb-3 mx-5 mt-3">Add To My wishlist</Link>
+                     <Link to="/Mywishlist" className="btn btn-primary  mb-3 mx-5 mt-3">Add To My wishlist</Link>
                      </div>
 
                     

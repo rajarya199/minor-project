@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import man2 from '/src/images/man2.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPhone, faMapMarkerAlt, faEnvelope,faRupeeSign,faUser } from '@fortawesome/free-solid-svg-icons';
+import { green } from '@mui/material/colors';
 
 
 export default function Profile() {
@@ -11,7 +12,10 @@ export default function Profile() {
             
       <nav className="navbar bg-body-tertiary fixed">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#"> My Profile</a>
+          <div className=' d-flex '  style={{fontSize:'30px',color:'green' }}>
+          My Profile
+          </div>
+        
           <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
             <span className="navbar-toggler-icon" />
           </button>
@@ -23,7 +27,7 @@ export default function Profile() {
             <div className="offcanvas-body">
               <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
                 <li className="nav-item">
-                  <Link className="nav-link active" aria-current="page" to='/Profile'>Home</Link>
+                  <Link className="nav-link active" aria-current="page" to='/Profile'>Profile</Link>
                 </li>
                 <li className="nav-item">
 

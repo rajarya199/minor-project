@@ -83,7 +83,7 @@ export default function Viewhostel() {
                      <FontAwesomeIcon  className='mt-2 '  style={{marginLeft:'3em'}} icon={faBed} /><span style={{fontSize:'20px',marginBottom:'2px'}}> Available:3</span>
                      <br/>
                      
-                     <Link to="/" className="btn btn-primary  mb-3 mx-4 mt-3 ">Add To My wishlist</Link>
+                     <Link to="/Mywishlist" className="btn btn-primary  mb-3 mx-4 mt-3 ">Add To My wishlist</Link>
                      <Link to='/hosteladmitform'className="btn btn-primary  mb-3  mt-3 "> Book Now </Link>
 
                      </div>

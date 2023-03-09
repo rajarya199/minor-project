@@ -35,12 +35,12 @@ export default function Header() {
               
             </ul>
             
-             <form className="d-flex" role="search" style={{border:'3px solid #ccc ',borderRadius:'8px',padding:'2px 1px',backgroundColor:'white'}} >
+             {/* <form className="d-flex" role="search" style={{border:'3px solid #ccc ',borderRadius:'8px',padding:'2px 1px',backgroundColor:'white'}} >
               <input className="form-control " type="search" placeholder="Search" aria-label="Search" style={{border:'none',borderRadius:'8px',width:'100%',marginRight:'6px'}} />
               
               <span type='submit' className="fa fa-search my-2 " style={{fontSize:'20px'}}></span>
 
-            </form> 
+            </form>  */}
  
       
     

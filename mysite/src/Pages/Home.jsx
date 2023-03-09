@@ -19,7 +19,7 @@ export default function Home() {
   return (
     < >
       <div className=' d-flex  justify-content-end   ' style={{backgroundColor:'#E0F0FF',height:'50px' ,alignItems:'center'}}>
-     <Link to ='/#' style={{marginRight:'10px'}} >  <button type="button" className="btn btn-success me-3 ">  <FontAwesomeIcon icon={faHeart} /> Wishlist</button>  </Link>
+     <Link to ='/Mywishlist' style={{marginRight:'10px'}} >  <button type="button" className="btn btn-success me-3 ">  <FontAwesomeIcon icon={faHeart} /> Wishlist</button>  </Link>
     
       
       

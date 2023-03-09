@@ -86,7 +86,7 @@ export default function Myproperty() {
       </div>
         </div>
       </div>
-      <div className='container'> 
+      <div className='container mt-3 mb-3'> 
       <span className='mt-3 mx-5' style={{fontSize:'30px',color:'green'}}> Roommate Post</span>
       <div className='col-lg-6 mt-3'>
      <div className="card mb-3 bs" style={{maxWidth: '600px',height:"200px"}}>
