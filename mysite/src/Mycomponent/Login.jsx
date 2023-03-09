@@ -59,7 +59,7 @@ export default function login() {
     onChange={(event) => setpassword(event.target.value)}/><br/><br/>
     <button className="btn btn-outline-success mb-3" type="submit" style={{width:'40%'}}>Submit </button><br/>
     Not Register Yet.  
-    <Link className='mx-4' to='/Register' style={{fontSize:'20px'}}>Register Now</Link><br/>
+    <Link className='mx-4' to='/Profilereg ' style={{fontSize:'20px'}}>Register Now</Link><br/>
     <a className='mt-4' style={{fontSize:'20px'}} href="#">Forget Password?</a>
 
    

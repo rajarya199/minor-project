@@ -28,6 +28,8 @@ import Viewhostel from './Pages/Hostels/Viewhostel'
 import Viewmates from'./Pages/Roommates/viewmates'
 import Postroommate from './Pages/Roommates/PostRoommateForm/Postroommate'
 import Profilereg from './Mycomponent/profilereg'
+import Profile from './Pages/Myprofile/Profile'
+import Myproperty from './Pages/Myprofile/Myproperty'
 function App() {
   return (
     <BrowserRouter>
@@ -62,6 +64,10 @@ function App() {
         <Route path='/roommateview' element={<Viewmates></Viewmates>}></Route>
         <Route path='/postforroommate' element={<Postroommate></Postroommate>}></Route>
         <Route path='/ProfileReg' element={<Profilereg></Profilereg>}></Route>
+        <Route path='/Profile' element={<Profile></Profile>}></Route>
+        <Route path='/Myproperty' element={<Myproperty></Myproperty>}></Route>
+
+
 
 
 

@@ -45,7 +45,7 @@ export default function Header() {
       
     
 
-            <button className="btn btn-outline-success mx-2 " type="submit"> <Link to="/Register " className="nav-link" >Sign in</Link></button>
+            <button className="btn btn-outline-success mx-2 " type="submit"> <Link to="/Profilereg " className="nav-link" >Sign in</Link></button>
 
             <button className="btn btn-outline-success " type="submit"> <Link to="/Login " className="nav-link" >Login</Link></button>
           </div>

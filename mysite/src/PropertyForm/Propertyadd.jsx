@@ -97,8 +97,7 @@ export default function Propertyadd() {
                 Thank you for your submission
               </Typography>
               <Typography variant="subtitle1">
-                Your Property number is #2001539. We have emailed your 
-                confirmation, and will send you an update when we found the tenant.
+                Your Property number is reistered .we will send you an update when we found the tenant.
               </Typography>
             </React.Fragment>
           ) : (
