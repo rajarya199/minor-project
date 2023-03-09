@@ -27,6 +27,7 @@ import Roommate from './Pages/Roommates/Roommate'
 import Viewhostel from './Pages/Hostels/Viewhostel'
 import Viewmates from'./Pages/Roommates/viewmates'
 import Postroommate from './Pages/Roommates/PostRoommateForm/Postroommate'
+import Profilereg from './Mycomponent/profilereg'
 function App() {
   return (
     <BrowserRouter>
@@ -60,6 +61,7 @@ function App() {
         <Route path='/Roommate' element={<Roommate></Roommate>}></Route>
         <Route path='/roommateview' element={<Viewmates></Viewmates>}></Route>
         <Route path='/postforroommate' element={<Postroommate></Postroommate>}></Route>
+        <Route path='/ProfileReg' element={<Profilereg></Profilereg>}></Route>
 
 
 
