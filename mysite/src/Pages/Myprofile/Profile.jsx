@@ -30,7 +30,8 @@ export default function Profile() {
                   <Link className="nav-link" to="/Myproperty">My Property</Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">My wishlist</a>
+                    
+                  <Link className="nav-link" to="/Mywishlist">My wishlist</Link>
                 </li>
               
               </ul>

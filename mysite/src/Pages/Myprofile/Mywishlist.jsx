@@ -6,14 +6,13 @@ import man2 from '/src/images/man2.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPhone, faMapMarkerAlt, faEnvelope,faRupeeSign } from '@fortawesome/free-solid-svg-icons';
 
-
-
-export default function Myproperty() {
+export default function Mywishlist() {
   return (
     <div>
-      <div className='container mt-5 mb-5'>
-        <span className='mt-3 mx-5' style={{color:'green',fontSize:'30px'}}> MY Room/Flat/Hostel</span>
+            <div className='container mt-5 mb-5'>
+        <span className='mt-3 mx-5' style={{color:'green',fontSize:'30px'}}> MY Wishlist</span>
         <div className='row'>
+            <span className='mt-4 mx-5' style={{fontSize:'25px'}}> Properties</span>
         <div className=" col-lg-3 card mt-3 mb-3  bs" style={{width: '22rem',
     border:'3px solid #ccc ',
     padding:'1px ',
@@ -86,8 +85,10 @@ export default function Myproperty() {
       </div>
         </div>
       </div>
-      <div className='container'> 
+      <div className='container'>
+
       <span className='mt-3 mx-5' style={{fontSize:'30px',color:'green'}}> Roommate Post</span>
+      <div className='row'>
       <div className='col-lg-6 mt-3'>
      <div className="card mb-3 bs" style={{maxWidth: '600px',height:"200px"}}>
         <div className="row g-0">
@@ -108,9 +109,10 @@ export default function Myproperty() {
           </div>
         </div>
       </div>
-        </div>
+        </div> 
       </div>
      
+      </div>
     </div>
   )
 }
