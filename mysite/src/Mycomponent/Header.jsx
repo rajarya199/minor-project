@@ -43,11 +43,12 @@ export default function Header() {
             </form>  */}
  
       
-    
+   <link to=''></link> 
+ <Link to ='/profile' style={{fontSize:'30px',marginRight:'10px'}} > <i className='fas fa-user-alt' style={{color:'green'}}/> </Link>
 
-            <button className="btn btn-outline-success mx-2 " type="submit"> <Link to="/Profilereg " className="nav-link" >Sign in</Link></button>
+            <button className="btn btn-outline-success mx-2 " type="submit" style={{color:'white'}}> <Link to="/Profilereg " className="nav-link" >Sign in</Link></button>
 
-            <button className="btn btn-outline-success " type="submit"> <Link to="/Login " className="nav-link" >Login</Link></button>
+            <button className="btn btn-outline-success " type="submit" style={{color:'white'}}> <Link to="/Login " className="nav-link" >Login</Link></button>
           </div>
         </div>
       </nav>

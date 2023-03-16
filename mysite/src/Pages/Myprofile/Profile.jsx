@@ -2,8 +2,8 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import man2 from '/src/images/man2.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPhone, faMapMarkerAlt, faEnvelope,faRupeeSign,faUser } from '@fortawesome/free-solid-svg-icons';
-import { green } from '@mui/material/colors';
+import { faPhone, faMapMarkerAlt, faEnvelope,faRupeeSign,faUser,faBuildingCircleArrowRight,faHeartCircleCheck } from '@fortawesome/free-solid-svg-icons';
+
 
 
 export default function Profile() {
@@ -44,78 +44,122 @@ export default function Profile() {
           </div>
         </div>
       </nav>
-      <div className='container mb-3 mt-2'>
+      <section className='mb-3'>
         <div className='row'>
-            <div className='col-lg-4'>
-            <div className="col-md-7 mt-1 mx-3">
+         
+          <div className='mx-5 mt-2  mb-2  shadow' style={{border:'solid #ccc',padding:'10px', borderRadius:'5px', width:'200px'}}> 
+          <Link to='/Myproperty'>
+          <FontAwesomeIcon icon={faBuildingCircleArrowRight} style={{fontSize:'50px',color:'indigo'}} />
+          </Link>
+        <span style={{marginLeft:'22px',fontSize:'30px'}}>5</span><br/>
+          My Properties
+          </div>
+      
+         
+          <div className='mx-5 mt-2  mb-2  shadow' style={{border:'solid #ccc',padding:'10px', borderRadius:'5px', width:'200px'}}> 
+          <Link to='/Mywishlist'>
+
+          <FontAwesomeIcon icon={faHeartCircleCheck} style={{fontSize:'50px',color:'red'}} />
+          </Link> 
+          <span style={{marginLeft:'22px',fontSize:'30px'}}>3</span><br/>
+
+          My favourite
+          </div>
+
+        </div>
+      </section>
+      <section  style={{borderBottom:'25px solid aliceblue',borderTop:'25px solid aliceblue',backgroundColor:''}}>
+        <div className="container pt-4">
+          <h1 className="text-center">About Me</h1>
+          <div className="row mt-4">
+            <div className="col-lg-4">
+           
+            <div className="col-md-7 mt-1 mx-3" >
                         <img src={man2} className="img-fluid rounded-start" alt="..."  style={{height:'200px'}}/>
                         </div>
             </div>
-            <div className='col-lg-8'>
-                <div className='row' style={{border:' solid #ccc ',  padding:'1px ', borderRadius:'10px',height:'200px',lineHeight:'35px'}}>
-                <div  className=' col-lg-6 mt-2 mb-3 ' >
-            <FontAwesomeIcon style={{marginLeft:'3em'}} icon={faUser} /><span style={{fontSize:'18px',marginLeft:'10px'}}>Hari Bahadur</span><br/>
+            <div className="col-lg-8">
+              
+              <div className="row mt-3" style={{lineHeight:'50px'}}>
+                <div className="col-md-6">
+                
+                   <FontAwesomeIcon style={{marginLeft:'3em'}} icon={faUser} /><span style={{fontSize:'18px',marginLeft:'10px'}}>Hari Bahadur</span><br/>
                          <FontAwesomeIcon style={{marginLeft:'3em'}} icon={faEnvelope} /><span style={{fontSize:'18px',marginLeft:'10px'}}>contact@hari.com</span><br/>
                          <FontAwesomeIcon  style={{marginLeft:'3em'}} icon={faMapMarkerAlt} /> <span style={{fontSize:'20px',marginLeft:'10px'}}> Pulchowk</span> <br/>
                      
 
                         <FontAwesomeIcon className='mb-2' style={{marginLeft:'3em'}} icon={faPhone} /><span style={{fontSize:'20px',marginLeft:'10px'}}>12345678 ,345678 </span> <br/>
-                     </div> 
-                    <div className='col-lg-4  mt-2 mb-3' style={{fontSize:'18px'}}>
-                            Gender:Male 
-                            Age: 21yrs
-                            Occupation:Students
-                    </div>
                 </div>
-
-          
-
+                <div className="col-md-6">
+               
+                          
+                          
+                  <ul style={{fontSize:'18px'}}>
+                    <li> Gender:Male</li>
+                    <li>DOB:1995-09-10</li>
+                    <li>   Occupation:Students</li>
+                  </ul>
+                </div>
+              </div>
+              <div className="row mt-3">
+                <p style={{fontSize:'18px'}}>  My name is Hari Bahadur..I was born in  Malika VDC of Gulmi district.I  grew up in Butwal,Rupandehi.
+                    I complete my schooling here only and i completed my under graduate in Butwal.I am pursuing my engineering from Pulchowk campus
+                  .For study ,i have been in ktm for past  year.
+                </p></div>
             </div>
-        </div>
+          </div>
+        </div></section>
+        <table className=' mt-2 mx-5 me-3 mb-2' style={{fontFamily:'sans-serif',borderCollapse:'collapse',
+width:'90%' }}>
+  <tr>
+    <td>Name</td>
+    <td>Hari Bahadur</td>
+  </tr>
+  <tr>
+    <td>Gender</td>
+    <td>Male</td>
+  </tr>
+  <tr>
+    <td>Age</td>
+    <td>23</td>
+  </tr>
+  <tr>
+    <td>Occupation</td>
+    <td>Student</td>
+  </tr>
+  <tr>
+    <td>Smoker?</td>
+    <td> No</td>
+  </tr>
+  <tr>
+    <td>Any pets?</td>
+    <td>No</td>
+  </tr>
+  <tr>
+    <td> Early bird/Night Owl?</td>
+    <td>Night Owl</td>
+  </tr>
+  <tr>
+    <td>Partying</td>
+    <td>yes</td>
+  </tr>
+  <tr>
+    <td>Alcoholic</td>
+    <td>Non-Alcoholic</td>
+  </tr>
+  <tr>
+    <td>Married</td>
+    <td>No</td>
+  </tr>
+  <tr>
+    <td>Veg</td>
+    <td> yes</td>
+  </tr>
 
-      </div>
-        <div className='container'>
-            <div className='row'>
-            <div className='col-lg-6'>
-                <h5 className='mt-5'>About me</h5>
-                <div className='row' style={{lineHeight:'35px'}}>
-
-                <div className='col-lg-5 mb-3'>
-              Name <br/>
-              Gender <br/>
-              Age <br/>
-              Occupation<br/>
-              Smoker?<br/>
-              Any pets?<br/>
-              Early bird/Night Owl?<br/>
-              Partying<br/>
-              Alcoholic<br/>
-              Married<br/>
-              Veg<br/>
-
-            </div>
-            <div className='col-lg-5'>
-              Hari Bahadur <br/>
-              Male <br/>
-              22 yrs <br/>
-              Student <br/>
-              No <br/>
-               No <br/>
-               Night Owl<br/>
-              Yes,(moderate) <br/>
-              Non-Alcoholic<br/>
-               No<br/>
-               yes<br/>
-            </div>
-            
-            
+ 
+</table>
+     
         
-           
-            </div>
-            </div>
-            </div>
-   
-            </div>
 
     </div>
   )

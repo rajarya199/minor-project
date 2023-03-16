@@ -143,13 +143,11 @@ export default function Viewhostel() {
     <button class="nav-link" id="nav-comm-tab" data-bs-toggle="tab" data-bs-target="#nav-comm" type="button" role="tab" aria-controls="nav-comment" aria-selected="false">Comment</button>
   </div>
 </nav>
-<div class="tab-content" id="nav-tabContent" style={{backgroundColor:'aliceblue'}}>
+<div class="tab-content" id="nav-tabContent" >
   <div class="tab-pane fade show active" id="nav-desc" role="tabpanel" aria-labelledby="nav-desc-tab" tabindex="0">
-    <p className='mt-2 mb-2' style={{fontFamily:'sans-serif'}}>
-        <h4> 
+    <p className='mt-3 mb-3' style={{fontFamily:'inherit',fontSize:'20px'}}>
+        
         This hostel is run by a family and it has homely environment with hygienic food. We provide 24-hr wi-fi and hot/cold water facility. The hostel Management play vital role in student's daily educational activities. The student should strictly follow the hostel's rules and regulations. we have neat and clean rooms with beautiful beds & bathrooms. we are fully oriented in student's future development.There are various academic institutes nearby this hostel. We provides quality services for students consisting of various value added services.
-         </h4>
-
 
     </p>
     

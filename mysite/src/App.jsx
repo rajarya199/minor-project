@@ -11,7 +11,7 @@ import About from './Pages/About'
 import { BrowserRouter, Route ,Routes} from 'react-router-dom';
 import Home from './Pages/Home'
 import Room from './Pages/Rooms/Room'
-import AddRoom from './Pages/Rooms/AddRoom'
+// import AddRoom from './Pages/Rooms/AddRoom'
 import Flat from './Pages/Flats/Flat'
 import Axios from 'axios'
 import Hostel from './Pages/Hostels/Hostel'
@@ -50,7 +50,7 @@ function App() {
         <Route path='/Contact' element={<Contact></Contact>}></Route>
         <Route path='/AboutUs' element={<About></About>} ></Route>
         <Route path='/Room' element={<Room></Room>}></Route>
-        <Route path='/AddRoom' element={<AddRoom></AddRoom>}></Route>
+        
         <Route path='/Flat' element={<Flat></Flat>}></Route>
         <Route path='/Hostel' element ={<Hostel></Hostel>}></Route>
         <Route path='/Addpost' element={<Addpost></Addpost>}></Route>

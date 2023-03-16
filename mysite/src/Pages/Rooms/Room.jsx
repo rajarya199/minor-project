@@ -10,7 +10,7 @@ import room21 from '/src/images/room21.jpg'
 
 import room22 from '/src/images/room22.jpg'
 
-import AddRoom from './AddRoom'
+
 export default function Room() {
   const [data, setData] = useState([])
 

@@ -365,13 +365,25 @@ export default function Profilereg() {
           <Grid item xs={12} sx={{marginTop:3}} >
         <h5>About Me  </h5>
     </Grid>
+    <Grid item xs={12} sm={12}>
+          <TextField
+          
+            id="Description"
+            name="Description"
+            multiline
+            rows={5}
+            label="Description"
+            fullWidth
+            
+
+          />
+        </Grid>
 
           <Grid item xs={12} sm={12}>
           <TextField
           required
             id="occupation"
             name="occupation"
-            
             label="Occupation"
             fullWidth
             variant="standard"

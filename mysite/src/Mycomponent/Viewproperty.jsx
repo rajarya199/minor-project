@@ -88,14 +88,14 @@ export default function Viewproperty() {
     <button class="nav-link" id="nav-comm-tab" data-bs-toggle="tab" data-bs-target="#nav-comm" type="button" role="tab" aria-controls="nav-comment" aria-selected="false">Comment</button>
   </div>
 </nav>
-<div class="tab-content" id="nav-tabContent" style={{backgroundColor:'aliceblue'}}>
+<div class="tab-content" id="nav-tabContent" >
   <div class="tab-pane fade show active" id="nav-desc" role="tabpanel" aria-labelledby="nav-desc-tab" tabindex="0">
-    <p  className='mt-2' style={{fontFamily:'sans-serif'}}>
-        <h4> A house with 1 floor is built in an area of 3.1 aana is located at Suryabinayak, Bhaktapur, and is available for sale.It is 1 km far from Arniko Highway, Suryabinayak Chowk. It has faced towards the south direction and has road access of 13 feet.
-        Located In Manjri B.K, Taluka Haveli,<br/> 
+    <p  className='mt-3 mb-3' style={{ fontSize:'20px',fontFamily:'inherit'}} >
+         A house with 1 floor is built in an area of 3.1 aana is located at Suryabinayak, Bhaktapur, and is available for sale.It is 1 km far from Arniko Highway, Suryabinayak Chowk. It has faced towards the south direction and has road access of 13 feet.
+        Located In Manjri B.K, Taluka Haveli.
         These Semi/Fully-Equipped Co-Living Studios And 1 BHKs Feature All Basic Amenities And An Exclusive Game Room For Its Residents.
-         With Rent Starting At Just ₹5,500/ Bed, You Can Share Your Space With A Friend Or Live By Yourself. <br/>
-         Away From The Chaos Of Setting Up A House Or Paying A Huge Sum As Security Deposit, Enjoy The Perks Of Living In A Comfy Home. </h4>
+         With Rent Starting At Just ₹5,500/ Bed, You Can Share Your Space With A Friend Or Live By Yourself. 
+         Away From The Chaos Of Setting Up A House Or Paying A Huge Sum As Security Deposit, Enjoy The Perks Of Living In A Comfy Home. 
 
 
     </p>

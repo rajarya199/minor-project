@@ -33,7 +33,7 @@ export default function Mysearch() {
       <option value="option5">Roomates </option>
     </select>
                 <button className="btn btn-outline-success  me-1 mt-3 mb-3 mx-1 " type="submit " style={{ width: '100px',color:'black' }}>Search</button>
-      </form> 
+      </form>  
 
 
 </div>
